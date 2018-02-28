@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RootVision</title>
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <style>
+    </style>
+    <script>
+      var slideIndex=1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      function showSlides(n) {
+        var i;
+        var slides= document.getElementsByClassName("mySlides");
+        var dots= document.getElementsByClassName("dot");
+        if (n>slides.length) {slideIndex=1}
+        if (n<1) {slideIndex=slides.length}
+        for(i=0; i<slides.length; i++) {
+          slides[i].style.display="none";
+        }
+        for (i=1; i<dots.length; i++) {
+          dots[i].className=dots[i].className.replace("active","");
+        }
+        slides[slideIndex-1].style.display="block";
+        dots[slideIndex-1].className += "active";
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="navbar">
+      <img src="images/logo.jpeg" class="logo" alt="RootVision Logo" <a href="home.html"></a>
+      <ul>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">About Us</a>
+          <div class="dropdown-content">
+            <a href="#">Our story</a>
+            <a href="#">Our staff</a>
+            <a href="#">Contact us</a>
+          </div>
+        </li>
+        <li>
+          <a href="#">Student Page</a>
+        </li>
+        <li>
+          <a href="#">Employers Page</a>
+        </li>
+      </ul>
+    </div>
+    <div class="slideshow-container">
+
+      <div class="mySlides_fade">
+        <div class="numbertext">1/2</div>
+        <img src="images/photo1.jpeg" style="width:100%" alt="Career Fair"/>
+      </div>
+
+      <div class"mySlides_fade">
+        <div class="numbertext">2/2</div>
+        <img src="images/photo2.jpeg" style="width:100%">
+      </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style'"text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+
+</body>
+</html>
