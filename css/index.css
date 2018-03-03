@@ -79,10 +79,13 @@ body {
   background color: green;
 }
 
+{box-sizing:border-box}
+
 .slideshow-container {
-  margin: 300px 0 0 0;
   position: relative;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  margin:auto;
+  max-width:1000px;
 }
 .mySlides {
   display:none;
@@ -129,7 +132,7 @@ body {
 }
 .fade {
   -webkit-animation-name:fade;
-  -webkit-animation-duraction:1.5s;
+  -webkit-animation-duration:1.5s;
   animation-name:fade;
   animation-duration:1.5s;
 }

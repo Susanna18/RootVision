@@ -24,7 +24,7 @@
         for(i=0; i<slides.length; i++) {
           slides[i].style.display="none";
         }
-        for (i=1; i<dots.length; i++) {
+        for (i=0; i<dots.length; i++) {
           dots[i].className=dots[i].className.replace("active","");
         }
         slides[slideIndex-1].style.display="block";
@@ -55,12 +55,12 @@
     </div>
     <div class="slideshow-container">
 
-      <div class="mySlides_fade">
+      <div class="mySlides fade">
         <div class="numbertext">1/2</div>
         <img src="images/photo1.jpeg" style="width:100%" alt="Career Fair"/>
       </div>
 
-      <div class"mySlides_fade">
+      <div class"mySlides fade">
         <div class="numbertext">2/2</div>
         <img src="images/photo2.jpeg" style="width:100%">
       </div>
