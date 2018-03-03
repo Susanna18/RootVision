@@ -1,41 +1,48 @@
 .division {
   width:100%;
   height:20px;
-  background-color: black;
+  background-color: #273204;
 }
 h1 {
-  font-style:impact;
-  font-size:30px;
+  font-family:impact;
+  font-size:60px;
   font-weight: bold;
   color: black;
 }
 img {
   float:left;
-  height:200px;
-  width:100px;
+  height:400px;
+  width:300px;
+  margin:0 50px 0 0;
 }
 h2 {
-  font-style:impact;
-  font-size:20px;
+  font-family:impact;
+  font-size:40px;
   font-weight: bold;
 }
 p {
-  font-style:helvetica;
+  font-family:helvetica;
   max-width:1000px;
 }
-.t1 {
+h2.t1 {
   color:#89B078;
+  margin:0px;
 }
-.vision {
+p.vision {
   color:black;
   background-color:#89B078;
-  background:75%;
+  opacity:75%;
+  padding:10px 0 10px 0;
+  margin:0 0 50px 0;
 }
-.t2 {
+h2.t2 {
   color:#273204;
+  margin:0px;
 }
-.roots {
+p.roots {
   color:white;
-  background color:#273204;
-  background:75%;
+  background-color:#273204;
+  opacity:75%;
+  padding:10px 0 10px 0;
+  margin:0px;
 }
