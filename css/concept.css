@@ -13,7 +13,7 @@ img {
   float:left;
   height:400px;
   width:300px;
-  margin:0 50px 0 0;
+  margin:0 50px 0 10px;
 }
 h2 {
   font-family:impact;
@@ -30,10 +30,10 @@ h2.t1 {
 }
 p.vision {
   color:black;
-  background-color:#89B078;
-  opacity:75%;
-  padding:10px 0 10px 0;
-  margin:0 0 50px 0;
+  background-color:rgba(137,176,120,0.5);
+  padding:10px;
+  margin:0 50px 50px 0;
+  overflow:hidden;
 }
 h2.t2 {
   color:#273204;
@@ -41,8 +41,8 @@ h2.t2 {
 }
 p.roots {
   color:white;
-  background-color:#273204;
-  opacity:75%;
-  padding:10px 0 10px 0;
-  margin:0px;
+  background-color:rgba(39,50,4,0.7);
+  padding:10px;
+  margin:0 50px 0 0;
+  overflow:hidden;
 }
