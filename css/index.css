@@ -80,10 +80,19 @@ body {
 #navbar .dropdown:hover .dropbtn {
   background color: green;
 }
+
 .signup {
   background-color:#FF4D3E;
   color:white;
   radius:10px;
+  padding:15px;
+  margin:5px;
+  -webkit-border-radius:16px;
+  -moz-border-radius:16px;
+  border-radius:16px;
+}
+.signup:hover {
+  background-color:#ea6360
 }
 
 .slideshow-container {
