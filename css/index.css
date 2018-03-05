@@ -86,8 +86,6 @@ body {
   radius:10px;
 }
 
-{box-sizing:border-box}
-
 .slideshow-container {
   top:200px;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
