@@ -10,10 +10,10 @@ h1 {
   color: black;
 }
 img {
-  float:left;
+  float:right;
   height:400px;
   width:300px;
-  margin:0 50px 0 10px;
+  margin:0 10px 0 50px;
 }
 h2 {
   font-family:impact;
