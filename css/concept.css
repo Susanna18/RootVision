@@ -80,7 +80,7 @@ p.roots {
   width:300px;
   height:250px;
 }
-.overlay {
+.text {
   position:absolute;
   bottom:0;
   left:0;
@@ -90,11 +90,6 @@ p.roots {
   width:300px;
   height:0;
   transition:.5s ease;
-}
-.col-sm-4:hover .overlay {
-  height:100%;
-}
-.text {
   color:black;
   font-size:10px;
   position:absolute;
@@ -103,4 +98,7 @@ p.roots {
   transform:translate(-50%,-50%);
   -ms-transform:translate(-50%,-50%);
   text-align:center;
+}
+.col-sm-4:hover .text {
+  height:100%;
 }
