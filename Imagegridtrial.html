@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='bcss/bootstrap.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/concept.css">
+
+<style>
+  body {
+    font-family: helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    background: #232323;
+  }
+  div {
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    margin: 40px 0 0 0;
+    border-radius: 12px;
+  }
+  h1 {
+    font-family: 'Londrina Shadow', cursive;
+    text-align: center;
+    font-size: 75px;
+    color: #aaaaaa;
+    margin: 60px 0 0 0;
+  }
+  h2 {
+    text-align: center;
+    color: #bbbbbb;
+    margin: 0px 0 70px 0;
+  }
+  p {
+    color: rgba(255,255,255,1);
+    background: black;
+    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    padding: 10px;
+    line-height: 28px;
+    text-align: justify;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    height: 30px;
+    transition: height .5s;
+    -webkit-transition: height .5s;
+    -moz-transition: height .5s;
+  }
+  small {
+    opacity:0;
+  }
+  .show-description p {
+    height: 150px;
+  }
+  .show-description small {
+    opacity: 1;
+  }
+  .first{
+    background-image: url("http://dash.ga.co/assets/firstcourse.jpg");
+  }
+  .second{
+    background-image: url("http://dash.ga.co/assets/secondcourse.jpg");
+  }
+  .dessert{
+    background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
+  }
+  .price {
+    float: right;
+  }
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 50px;
+      margin: 20px 0 0 0;
+      line-height: 40px;
+    }
+    h2 {
+      font-size: 20px;
+      margin: 20px 0 30px 0;
+    }
+    div {
+      margin: 20px 12px 0 12px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    .small {
+      font-size: 16px;
+    }
+  }
+  </style>
+
+  </head>
+
+  <body>
+  <h1>esha's restaurant</h1>
+  <h2>a New York City eatery</h2>
+  <div class="first">
+    <p>welsh onion soko <span class="price">$14</span><br />
+    <small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
+  </div>
+
+  <div class="second show-description">
+    <p>pastrami boudin tongue <span class="price">$22</span><br />
+    <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+  </div>
+
+  <div class="dessert">
+    <p>fruitcake marzipan pudding dragee <span class="price">$8</span><br />
+    <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
+  </div>
+
+  <div class="row justify-content-center">
+      <div class="col-sm-4" data-toggle="lightbox" data-gallery="example-gallery">
+          <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+      </div>
+      <div class="col-sm-4" data-toggle="lightbox" data-gallery="example-gallery">
+          <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
+      </div>
+      <div class="col-sm-4" data-toggle="lightbox" data-gallery="example-gallery">
+          <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
+      </div>
+  </div>
+  <div class="row justify-content-center">
+      <div class="col-sm-4" data-toggle="lightbox" data-gallery="example-gallery">
+          <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
+      </div>
+      <div class="col-sm-4" data-toggle="lightbox" data-gallery="example-gallery">
+          <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
+      </div>
+      <div class="col-sm-4" data-toggle="lightbox" data-gallery="example-gallery">
+          <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
+      </div>
+  </div>
+
+what I have at the moment...
+
+<div id="grid" class="container">
+  <div class="row">
+    <div class="col-md-8">
+        <img src="images/square1.jpeg" class="image">
+        <p class="text">Step 1</p> <small>This student had no idea what they wanted to do after GCSE’s and so the first step was to chose 5 different interests/school subjects to try out. We have a quiz designed to help you narrow down your interests and chose 5 areas to explore. These 5 areas can be completely different as many people tend to have wide interests. One of the areas the student chose was finance.</small>
+    </div>
+    <div class="col-md-8">
+        <img src="images/square2.jpeg" class="image">
+        <div class="overlay">
+        <p class="text">Step 2 <small>The next step was finding out how to explore this area through experience. When trying out an area, especially if you are a student, it is easier to start close to home. This could be seeing if a relative works in this area and asking them to do an hour explaining to you what exactly they do, or going to school and asking if you could do a weeks work experience helping the finance department, or finding a local shop and asking for a Saturday job. </small></p>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <img src="images/square3.jpeg" class="image">
+        <div class="overlay">
+        <p class="text">Step 3</p> <small>This student was unsuccessful finding these particular opportunities so instead decided to learn how to create personal finance excel spreadsheets, searched on google and Youtube for people who work in the finance sector, and used our resource which outlines different job titles in different sectors. They found that they really enjoyed excel and managing money, and found a particular job that interested them: a Bank Manager. </small>
+        </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <img src="images/square4.jpeg" class="image">
+      <div class="overlay">
+      <p class="text">Step 4</p> <small>The next stage was making the vision clearer by working out exactly how to get there. Your dream job will normally come after different job titles, so this student used our pathway tree tool to map out the other job titles they might have to pass by to become a manager, for example bank cashier and assistant manager. Their pathway tree also included qualifications they might need to get or which will make them stand out amongst the competition. </small>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <img src="images/square5.jpeg" class="image">
+      <div class="overlay">
+      <p class="text">Step 5</p> <small>This tree pathway will help you to chose your education options, for example A Level/College/University/Apprenticeship options. The student decided to take Maths, Business and Politics for A Levels. He also took online courses, such as on the website FutureLearn, relating to bank management. </small>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <img src="images/square6.jpeg" class="image">
+      <div class="overlay">
+      <p class="text">Step 6</p> <small>In order to gain new skills, the student contacted all the local banks asking to do either a Saturday job or a summer internship. They were successful and this enabled them to create new contacts as well. In order to build more contacts, the student followed bank managers on LinkedIn and messaged them for career advice. </small>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script>
+  $('div').on('click', function() {
+    $(this).toggleClass('show-description');
+  });
+  </script>
+
+  </body>
