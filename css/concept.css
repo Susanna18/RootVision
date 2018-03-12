@@ -50,3 +50,22 @@ p.roots {
   height:90%;
   padding:10px;
 }
+.image {
+  opacity:1;
+  height:100%;
+  width:100%;
+}
+.imagetext {
+  height:250px;
+  width:275px;
+  position:relative;
+  text-align:center;
+  color:white;
+  background:rgba(192,192,192,.6);
+}
+.centered {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
